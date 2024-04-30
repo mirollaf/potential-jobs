@@ -3,6 +3,13 @@ html, body {
     background-color: black;
     color: red;
 }
+.sofia-regular {
+    font-family: "Sofia", cursive;
+    font-weight: 1000;
+    font-size: 2500;
+    font-style:italic;
+  }
+  
 
 /* Header styles */
 header {
@@ -11,6 +18,8 @@ header {
 
 header h1 {
     color: white;
+    font-family: "Sofia", cursive;
+
 }
 
 /* H2 styles */
