@@ -1,15 +1,46 @@
 /* Custom styles */
 html, body {
-    background-color: black; /* Setting both HTML and body background to black */
-    color: white; /* Setting text color to white */
+    background-color: black;
+    color: red;
 }
 
 /* Header styles */
 header {
-    background-color: #8B0000; /* Dark red */
+    background-color: black;
+}
+
+header h1 {
+    color: white;
+}
+
+/* H2 styles */
+h2 {
+    color: white;
 }
 
 /* Footer styles */
 footer {
-    background-color: #8B0000; /* Dark red */
+    background-color: black;
+}
+
+footer p {
+    color: white;
+}
+
+/* Job Description Section styles */
+#job-description p {
+    margin-bottom: 20px;
+}
+
+/* Screenshot styles */
+#job-description img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Carousel image styles */
+.carousel-item img {
+    width: 100%;
+    height: 300px; /* Adjust this value as needed */
+    object-fit: cover; /* This ensures the image covers the entire container */
 }
